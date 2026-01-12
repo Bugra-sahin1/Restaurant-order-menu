@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../cart/cart.css">
+    <script src="../cart/cart.js"></script>
+</head>
+<body onload="cart()">
+        <div id="headercontainer">
+            <div id="header_name_and_logo">
+                <table>
+                    <tr>
+                        <td><img src="../images/logo.png" alt="logo" id="logo" class="logoname"></td>
+                        <td><h1 id="restaurantname" class="logoname">HAS LOKANTA</h1></td>                          
+                   </tr>
+                </table>
+            </div>
+            <div id="header_menu">
+                <a href="../index/index.htm"><img src="../images/home.png" id="homelogo"></a>
+                <a href="../menu/menu.html" id="menu">Menu</a>
+                <a href="../about_us/about_us.html" id="aboutus" ><b>About us</b></a>
+                <a href="../feedback/feedback.html" id="feedback" >Feedback </a>
+                <a href="../cart/cart.html" ><img src="../images/cart.png" id="cartlogo"></a>
+            </div>
+        </div> 
+<br><br><br><br><br>
+<h1><b>Your Cart</b></h1>
+<div id="cartcontent">
+    <div id="cartitems"></div>
+    <div id="cartsummary">
+        <h2><b>Cart Summary</b></h2>
+        <h4 id="totalitems">&nbsp Total Items: 0</h4>
+        <h4 id="totalprice">&nbsp Total Price: ₺0.00</h4>
+
+        <form action="order.php" method="post" id="orderform">
+        <div id="order">
+            <h3>Table number &nbsp</h3>
+            <input type="number" name="tablenumber" id="tablenumber" min="1" max="30"  placeholder="Enter your table number">
+        </div>
+        <br>
+        <button type="button" id="confirmbutton" onclick="confirmorder()">Confirm Order</button>
+        <button type="button" id="clearbutton" onclick="clearcart()">Remove Cart</button>
+
+    </div>
+    </form>
+</div>
+ <footer>
+        <div style="background-color: #000000; color: white; padding: 20px; text-align: center;">
+            <div id="footercontainer">
+                <div class="columns">
+                    <p class="column1">
+                        Our restaurant mainly created for students of Kadir Has University. Our mission is give the best and affordable food.
+                    </p>
+
+                    </div>
+                <div class="columns">
+                    <p class= "column2" id="footeraddress">
+                        Location: Behind the Kadir Has University Cibali street
+                    </p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

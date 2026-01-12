@@ -1,0 +1,152 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #080808;
+    
+}
+h1,h2,h3{
+    color: #0f0f0f;
+}
+a{
+    color: #141414;
+}
+#menu, #aboutus, #feedback{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+}
+#restaurantname{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+}
+#headercontainer{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 2%;
+    height: 80px;
+    background-color: #6E1F1F;
+
+}
+#headernamelogoandlogo{
+    display: flex;
+    align-items: center;
+
+}
+#header_menu{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+    margin-left: auto;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+#menu:active{
+    color: white;
+    font-size: 20px;
+}
+#menu:visited{
+    color:white;
+    font-size: 20px;
+}
+#menu:link{
+    color: black;
+    font-size: 20px;
+}
+#aboutus:active{
+    color: white;
+    font-size: 20px;
+}
+#aboutus:visited{
+    color:white;
+    font-size: 20px;
+}
+#aboutus:link{
+    color: black;
+    font-size: 20px;
+}
+#feedback:active{
+    color: white;
+    font-size: 20px;
+}
+#feedback:visited{
+    color:white;
+    font-size: 20px;
+}
+#feedback:link{
+    color: black;
+    font-size: 20px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    
+}
+
+#homelogo{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 45px;
+    margin-right: 7px;
+}
+#cartlogo{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50px;
+    margin-left: 7px;
+    
+
+}
+          
+
+#mis{
+            margin-top: 120px;
+            margin-left: 30px;
+            position: absolute;
+            width: 350px;
+            height: 200px;
+            border: 0px solid #841010;
+            
+        }  
+       
+#vis{
+            margin-top: 100px;
+            margin-left: 400px;
+            position: relative;
+            right: 10px;
+            width: 350px;
+            height: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+            font-style: italic;
+        }        
+
+
+
+
+.contact{
+    margin-top: 100px;
+    font-weight: bold;
+    margin-left: 20px;
+   
+}
+
+
+
+
+footer{
+    background-color:black ;
+    color: whitesmoke;
+    padding: 25px;
+    margin-top: 100px;
+    
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../feedback/feedback.css">
+    
+</head>
+<body>
+          <div id="headercontainer">
+            <div id="header_name_and_logo">
+                <table>
+                    <tr>
+                        <td><img src="../images/logo.png" alt="logo" id="logo" class="logoname"></td>
+                        <td><h1 id="restaurantname" class="logoname">HAS LOKANTA</h1></td>                                                  
+                   </tr>
+                </table>
+            </div>
+            <div id="header_menu">
+                <a href="../index/index.htm"><img src="../images/home.png" id="homelogo"></a>
+                <a href="../menu/menu.html" id="menu">Menu</a>
+                <a href="../about_us/about_us.html" id="aboutus" >About us</a>
+                <a href="../feedback/feedback.html" id="feedback" >Feedback </a>
+                <a href="../cart/cart.html" ><img src="../images/cart.png" id="cartlogo" ></a>
+            </div>
+        </div>
+    <form action="feedback.php" method="post">
+   <table border="0" height="400" width="600" id="feedbacktable">
+    <tr>
+         <td colspan="2"  style="color: #6E1F1F; font-weight: bolder; text-transform: uppercase; font-size: 40px; font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;"> Share Your Thoughts With Us</td>
+    <tr>
+        <td>Name Surname<br>(optinal)</td>
+        <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+        <td>How can we contact you? <br>(optinal)</td>
+        <td><input type="text" name="contact"></td>
+    </tr>
+    <tr>
+        <td>When did you visit our restourant?</td>
+        <td><input type="date" id="date" name="visitdate"></td>
+    </tr>
+    <tr>
+        <td>Your feedbacks, suggestions, complaint</td>
+        <td style="vertical-align: bottom;"><input type="text" name="feedback" style="width:200px; height:80px;" maxlength="500"></td>
+    </tr>
+    <tr>
+        <td>How many stars would you give to our restaurant?</td>
+        <td>
+            <div class="rating">
+                <div class="star-icon">
+                    <input type="radio" name="rating" id="rating5" value="5">
+                    <label for="rating5">★</label>
+
+                    <input type="radio" name="rating" id="rating4" value="4">
+                    <label for="rating4">★</label>
+                    <input type="radio" name="rating" id="rating3" value="3">
+                    <label for="rating3">★</label>
+
+                    <input type="radio" name="rating" id="rating2" value="2">
+                    <label for="rating2">★</label>
+
+                    <input type="radio" name="rating" id="rating1" value="1">
+                    <label for="rating1">★</label>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button type="submit"  id="CALCULATE">SUBMIT</button></td>
+    </tr>
+    </table>
+    </form>
+        <footer>
+        <div style="background-color: #000000; color: white; padding: 20px; text-align: center;">
+            <div id="footercontainer">
+                <div class="columns">
+                    <p class="column1">
+                        Our restaurant mainly created for students of Kadir Has University. Our mission is give the best and affordable food.
+                    </p>
+
+                    </div>
+                <div class="columns">
+                    <p class= "column2" id="footeraddress">
+                        Location: Behind the Kadir Has University Cibali street
+                    </p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
+
+

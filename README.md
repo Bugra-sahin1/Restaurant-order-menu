@@ -1,2 +1,3 @@
-## Database Setup
-Database credentials are intentionally removed for security reasons.
+## Security Note
+Database credentials and real database names are omitted.
+Prepared statements are used to prevent SQL injection.

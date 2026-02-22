@@ -16,6 +16,9 @@ A restaurant website project developed using HTML, CSS, JavaScript, and PHP.
 - PHP
 - MySQL
 
+## Collaboration
+This project was completed as a group assignment.
+
 ## Security Note
 Database credentials and real database names are omitted.
 Prepared statements are used to prevent SQL injection.
